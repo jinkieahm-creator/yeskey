@@ -1,0 +1,81 @@
+.rel { 
+  position: relative;
+  height: 100%;
+  /* border:3px solid red; */
+}
+section { 
+  padding:10rem 3rem;
+  position: relative; 
+  z-index: 0;
+}
+
+h2.tit {
+  font-size: 3.5rem;
+  line-height: 4.4rem;
+  font-weight: 300;
+  letter-spacing: -0.2rem
+}
+
+strong { font-weight: 900; }
+
+.pc_only { display: none; }
+
+p.txt2 { 
+  font-size: 1.6rem;
+  margin-top: 3rem;
+  line-height: 2.4rem;
+}
+
+.con_btn {
+  display: inline-block;
+  color:#fff;
+  background: #303030;
+  width: 16rem;
+  line-height: 6rem;
+  font-size: 1.6rem;
+  border-radius: 3rem;
+  text-align: center;
+
+  position: absolute;
+  left:calc(50% - 8rem);
+  bottom: -14rem;
+}
+
+.bg, .deco1, .deco2, .deco3, .deco4 { 
+  /* border:1px solid coral; */
+  position: absolute; 
+  left: 0; 
+  top:0;
+  width: 100%; height: 100%; 
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: contain;
+}
+
+.site_group {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 2rem;
+}
+.site_name { 
+  position: relative;
+  display: inline-block;
+  color:rgba(255, 255, 255, 0.5);
+  line-height: 3.7rem;
+  font-size: 1.3rem;
+  padding: 0 1.2rem;
+}
+
+.site_name.active {
+  color: #fff;
+  font-weight: 900;
+}
+.site_name + .site_name:before { 
+  position: absolute;
+  content: "";
+  width: .1rem;
+  height: 1.2rem;
+  background:rgba(255, 255, 255, 0.5);
+  top:1.2rem;
+  left:0
+}

@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YesKey</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/ScrollTrigger.min.js"></script>
+  <script src="script/js.js" defer></script>
+  <script src="script/gsap.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="rel">
+      <div class="header_left">
+        <h1 class="header_tit">
+          <a href="#">
+            <img src="img/header_logo_black.svg" alt="" class="header_logo black">
+            <img src="img/header_logo_white.svg" alt="" class="header_logo white">
+          </a>
+        </h1>
+        <div class="site_group">
+          <a href="#" class="site_name active">고객</a>
+          <a href="#" class="site_name">이용기관</a>
+        </div>
+      </div>
+      <div class="header_right">
+        <ul class="h_nav">
+          <li><a href="#">인증서</a></li>
+          <li><a href="#">바이오인증</a></li>
+          <li><a href="#">OTP</a></li>
+          <li><a href="#">마이인포(금융분산ID)</a></li>
+          <li><a href="#">My 인증(발급·관리)</a></li>
+          <li><a href="#">고객지원</a></li>
+        </ul>
+        <a href="#" class="sch_btn">search_btn</a> 
+        <a href="#" class="global_btn">global_btn</a> 
+      </div>      
+      <a href="#" class="mob_btn">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+      </a>
+    </div>    
+    <div class="subNav_wrap">
+      <div class="menu_inner">
+        <div class="banner_wrap">
+          <figure class="event">
+            <img src="img/100295.png" alt="">
+          </figure>
+          <div class="work">
+            <figure class="banner">
+              <img src="img/header_trust_e_sign-kor.png" alt="">
+            </figure>
+            <figure class="banner">
+              <img src="img/header_iden-kor.png" alt="">
+            </figure>
+          </div>          
+        </div>
+        <div class="sub_menu">
+          <ul class="depth1">
+            <li>
+              <span>인증서</span>
+              <ul class="depth2">
+                <li><a href="#">금융인증서</a></li>
+                <li><a href="#">공동인증서</a></li>
+                <li><a href="#">모비싸인</a></li>
+              </ul>
+            </li>
+            <li>
+              <span>바이오인증</span>
+              <ul class="depth2">
+                <li>
+                  <a href="#">바이오인증</a>
+                  <ul class="depth3">
+                    <li><a href="#">오프라인 바이오인증</a></li>
+                    <li><a href="#">모바일 바이오인증</a></li>
+                    <li><a href="#">간편 바이오인증</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">바이오 전자서명</a></li>
+              </ul>
+            </li>
+            <li>
+              <span>OTP</span>
+              <ul class="depth2">
+                <li><a href="#">디지털OTP</a></li>
+                <li><a href="#">마이인포(금융분산ID)</a></li>
+                <li><a href="#">마이인포</a></li>
+              </ul>
+            </li>
+            <li>
+              <span>마이인포(금융분산ID)</span>
+              <ul class="depth2">
+                <li><a href="#">마이인포</a></li>
+              </ul>
+            </li>
+            <li>
+              <span>My 인증(발급·관리)</span>
+              <ul class="depth2">
+                <li><a href="#">금융인증서</a></li>
+                <li><a href="#">공동인증서</a></li>
+                <li><a href="#">본인확인서비스</a></li>
+                <li><a href="#">모비싸인</a></li>
+                <li><a href="#">보안업무용인증서</a></li>
+              </ul>
+            </li>
+            <li>
+              <span>고객지원</span>
+              <div>
+                <ul class="depth2 col2_ul">
+                  <li><a href="#">고객지원</a></li>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">자료실</a></li>
+                  <li><a href="#">체험하기</a></li>
+                  <li><a href="#">테스트</a></li>
+                </ul>
+                <ul class="depth2 col2_ul">
+                  <li><a href="#">고객문의</a></li>
+                  <li><a href="#">고객제한</a></li>
+                  <li><a href="#">홍보 및 미디어</a></li>
+                  <li><a href="#">이벤트</a></li>                 
+                  <li><a href="#">설문조사</a></li>
+                </ul>
+              </div> 
+            </li>            
+          </ul>
+        </div>
+      </div>
+      <div class="site_group">
+        <a href="#" class="site_name active">고객</a>
+        <a href="#" class="site_name">이용기관</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- 0 -->
+  <section id="section0">
+    <div class="rel">
+      <div class="tit_wrap">
+        <figure class="tit_logo">
+          <img src="img/main_logo_white.png" alt="">
+        </figure>
+        <p class="txt1">늘 곁에서 한결같이</p>
+        <h2 class="tit">
+          <strong>나를 가장 잘 아는</strong><br>단 하나의 인증서
+        </h2>
+      </div>
+      <div class="scroll">
+        scroll
+      </div>
+    </div>
+  </section>
+
+  <!-- 1 -->
+  <section id="section1">
+    <div class="rel">
+      <div class="tit_wrap">
+        <h2 class="tit">
+          <strong>22년간 인증서</strong>를 운영해 온 노하우는 기본,<br class="pc_only"> <strong>기본에 혁신을 더한 인증서비스</strong>
+        </h2>
+      </div>
+      <ul class="s1_list">
+        <li>
+          <div class="data_icon">
+            <img src="img/icon_data01.gif" alt="">
+          </div>
+          <div class="data_txt">
+            <p class="sub">매초</p>
+            <p class="num">
+              <span class="count"> 248</span> 건+
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="data_icon">
+            <img src="img/icon_data02.gif" alt="">
+          </div>
+          <div class="data_txt">
+            <p class="sub">매시간</p>
+            <p class="num">
+              <span class="count"> 88</span> 만건 +
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="data_icon">
+            <img src="img/icon_data03.gif" alt="">
+          </div>
+          <div class="data_txt">
+            <p class="sub">하루</p>
+            <p class="num">
+              <span class="count"> 2118</span> 만건+
+            </p>
+          </div>
+        </li>
+      </ul>
+      <div class="sub_txt_wrap">
+        <strong>금융결제원</strong>은<br class="mob_only">
+        <span class="year"> 연간 <strong>77억건</strong></span> 의 금융거래를<br class="mob_only"> 인증하고 있습니다.
+      </div>
+    </div>
+  </section>
+
+  <!-- 2 -->
+  <section id="section2">
+    <div class="rel">
+      <div class="tit_wrap">
+        <h2 class="tit">
+          <strong>금융인증센터<br class="pc_only"> 서비스</strong>의<br>다양한 활용분야
+        </h2>
+        <p class="txt2 pc_only">
+          전자서명법 개정으로 선택의 폭이<br class="pc_only"> 넓어졌지만 책임과 리스크는 커진 인증수단,<br> 신뢰할 수 있는 높은 수준의 보안성을 적용하여<br class="pc_only"> 사용자에게 안전한 인증서비스를 제공합니다. 
+        </p>
+      </div>
+      <ul class="s2_list">
+        <li>
+          <article class="s2_card card1">
+            <h3 class="card_tit">금융</h3>
+            <p class="card_txt">
+              인증서관리 문제로 인한<br>금융사고는 이제 그만!<br>클라우드 보관으로<br>이젠 안심하세요.
+            </p>
+            <img src="img/icon_main_card01.gif" alt="" class="cardImg">
+          </article>
+          <article class="s2_card card2">
+            <h3 class="card_tit">전자상거래</h3>
+            <p class="card_txt">              
+              번거로운 결제 과정은 그만!<br>가볍고 편리하게<br>그리고,<br>안전하게 이용하세요.
+            </p>
+            <img src="img/icon_main_card02.gif" alt="" class="cardImg">
+          </article>
+        </li>
+        <li>
+          <article class="s2_card card3">
+            <h3 class="card_tit">공공</h3>
+            <p class="card_txt">             
+              세금, 공과금 납부가<br>어려우셨나요?<br>금융인증센터 서비스가<br>친절하게 도와드려요.
+            </p>
+            <img src="img/icon_main_card03.gif" alt="" class="cardImg">
+          </article>
+          <article class="s2_card card4">
+            <h3 class="card_tit">기타</h3>
+            <p class="card_txt">
+              금융인증이 필요한<br>어느 곳이라도 달려갑니다<br>이제는 YESKEY만 기억하세요.
+            </p>
+            <img src="img/icon_main_card04.gif" alt="" class="cardImg">
+          </article>
+        </li>
+      </ul>
+    </div> 
+  </section>
+
+  <!-- 3 -->
+  <section id="section3">
+    <div class="rel">
+      <div class="tit_wrap">
+        <h2 class="tit">
+          금융인증센터와<br> <strong>함께하는 금융회사 및 제휴고객사</strong>
+        </h2>
+      </div>
+      <article class="s3_slide">
+        <div class="row row1">
+          <a href="#" class="arrow left">left</a>
+          <a href="#" class="arrow right">right</a>
+          <div class="row_inner">
+            <img class="active" src="img/slide_logo_hana.png" alt="">
+            <img src="img/slide_logo_bnk.png" alt="">
+            <img src="img/slide_logo_kb.png" alt="">
+            <img src="img/slide_logo_dgb.png" alt="">
+            <img src="img/slide_logo_ibk.png" alt="">
+            <img src="img/slide_logo_sh.png" alt="">
+            <img src="img/slide_logo_kdb.png" alt="">
+            <img src="img/slide_logo_jb.png" alt="">
+            <img src="img/slide_logo_nh.png" alt="">
+            <img src="img/slide_logo_sc.png" alt="">
+            <img src="img/slide_logo_suhyup.png" alt="">
+            <img src="img/slide_logo_wr.png" alt="">
+          </div>
+          <div class="row_inner fake">
+            <img class="active" src="img/slide_logo_hana.png" alt="">
+            <img src="img/slide_logo_bnk.png" alt="">
+            <img src="img/slide_logo_kb.png" alt="">
+            <img src="img/slide_logo_dgb.png" alt="">
+            <img src="img/slide_logo_ibk.png" alt="">
+            <img src="img/slide_logo_sh.png" alt="">
+            <img src="img/slide_logo_kdb.png" alt="">
+            <img src="img/slide_logo_jb.png" alt="">
+            <img src="img/slide_logo_nh.png" alt="">
+            <img src="img/slide_logo_sc.png" alt="">
+            <img src="img/slide_logo_suhyup.png" alt="">
+            <img src="img/slide_logo_wr.png" alt="">
+          </div>
+        </div>
+        <div class="row row2">
+          <a href="#" class="arrow left">left</a>
+          <a href="#" class="arrow right">right</a>
+          <div class="row_inner">
+            <img class="active" src="img/slide_logo_customs.png" alt="">
+            <img src="img/slide_logo_ei.png" alt="">
+            <img src="img/slide_logo_epeople.png" alt="">
+            <img src="img/slide_logo_fs.png" alt="">
+            <img src="img/slide_logo_etaxbusan.png" alt="">
+            <img src="img/slide_logo_hometax.png" alt="">
+            <img src="img/slide_logo_kosaf.png" alt="">
+            <img src="img/slide_logo_renthome.png" alt="">
+            <img src="img/slide_logo_khf.png" alt="">
+            <img src="img/slide_logo_etaxincheon.png" alt="">
+            <img src="img/slide_logo_geps.png" alt="">
+            <img src="img/slide_logo_gov.png" alt="">
+          </div>
+          <div class="row_inner fake">
+            <img class="active" src="img/slide_logo_customs.png" alt="">
+            <img src="img/slide_logo_ei.png" alt="">
+            <img src="img/slide_logo_epeople.png" alt="">
+            <img src="img/slide_logo_fs.png" alt="">
+            <img src="img/slide_logo_etaxbusan.png" alt="">
+            <img src="img/slide_logo_hometax.png" alt="">
+            <img src="img/slide_logo_kosaf.png" alt="">
+            <img src="img/slide_logo_renthome.png" alt="">
+            <img src="img/slide_logo_khf.png" alt="">
+            <img src="img/slide_logo_etaxincheon.png" alt="">
+            <img src="img/slide_logo_geps.png" alt="">
+            <img src="img/slide_logo_gov.png" alt="">
+          </div>
+        </div>
+        <div class="slider_control">
+          <button type="button" class="stop_play" aria-label="애니메이션 정지">
+            <span class="stop_icon">&#8545</span>
+            <span class="play_icon">&#9654</span>
+          </button>
+        </div>
+      </article>
+      <article class="s3_con_box">
+        <p class="con_tit">
+          <strong>비즈니스 제휴</strong>가 필요하신가요?
+        </p>
+        <p class="con_txt">
+          YESKEY가 제공하는 서비스와 인프라를 자유롭게 활용하여 <br class="pc_only"> 인증서비스 간 연계, 클라우드 임대 등 새로운 시각에서 새로운 비즈니스 제휴와 파트너쉽을 기다립니다.
+        </p>
+        <a href="#" class="con_btn"><span>제휴문의</span></a>
+      </article>
+    </div> 
+  </section>
+
+  <!-- 4 -->
+  <section id="section4">
+    <div class="rel">
+      <div class="tit_wrap">
+        <h2 class="tit">
+          믿을 수 있는<br><strong>금융인증센터의<br> 금융인증서</strong>
+        </h2>
+        <p class="txt2 pc_only">
+          PC나 휴대폰이 아닌<br> 금융결제원의 안전한 클라우드에<br> 금융인증서를 보관하여 <br>언제 어디서나 편리하게 이용할 수 있습니다. 
+        </p> 
+        <a href="#" class="con_btn">더 알아보기</a>       
+      </div>
+      <article class="s4_img_wrap">
+        <div class="bg"></div>
+        <div class="deco1"></div>
+        <div class="deco2"></div>
+      </article>
+    </div> 
+  </section>
+
+  <!-- 5 -->
+  <section id="section5">
+    <div class="rel">
+      <div class="tit_wrap">
+        <h2 class="tit">
+          금융거래가<br class="pc_only"> 빨라진다<br><strong>안전하고 편리한 <br> 바이오인증</strong>
+        </h2>
+        <p class="txt2 pc_only">
+          비밀번호를 기억할 필요 없고,<br>분실 및 유출 걱정이 없는<br>타인의 복제나 공유가 불가능한<br>인증서비스입니다.
+        </p> 
+        <a href="#" class="con_btn">더 알아보기</a>       
+      </div>
+      <article class="s5_img_wrap">
+        <div class="bg"></div>
+        <div class="deco1"></div>
+        <div class="deco2"></div>
+        <div class="deco3"></div>
+        <div class="deco4"></div>
+      </article>
+    </div> 
+  </section>  
+
+  <!-- 6 -->
+  <section id="section6">
+    <div class="rel">
+      <div class="tit_wrap">
+        <h2 class="tit">
+          필요할 때마다<br>새로 발급되는<br><strong>6자리 비밀번호<br>OTP</strong>
+        </h2>
+        <p class="txt2 pc_only">
+          나만 알 수 있는 일회성 비밀번호로<br>
+          금융거래를 가장 안전하게<br>
+          이용할 수 있는 서비스입니다.
+        </p> 
+        <a href="#" class="con_btn">더 알아보기</a>       
+      </div>
+      <article class="s6_img_wrap">
+        <div class="bg"></div>
+        <div class="deco1"></div>
+        <div class="deco2"></div>
+        <div class="deco3"></div>
+        <div class="deco4"></div>
+      </article>
+    </div> 
+  </section>  
+
+  <!-- 7 -->
+  <section id="section7">
+    <div class="rel">
+      <div class="tit_wrap">
+        <h2 class="tit">
+          신원 및 자격증명을<br>스마트폰으로<br><strong>내 모든 정보를<br>한곳에 마이인포</strong>
+        </h2>
+        <p class="txt2 pc_only">
+          휴대하기 편하도록 내 휴대폰 안에<br>
+          각종 증명서를 저장하고<br>
+          금융거래가 편리할 수 있도록 합니다.
+        </p> 
+        <a href="#" class="con_btn">더 알아보기</a>       
+      </div>
+      <article class="s7_img_wrap">
+        <div class="bg"></div>
+        <div class="deco1"></div>
+        <div class="deco2"></div>
+        <div class="deco3"></div>
+      </article>
+    </div> 
+  </section>
+  
+  <!-- 8 -->
+  <section id="section8">
+    <div class="rel">
+      <div class="tit_wrap">
+        <h2 class="tit">
+          <strong>금융인증센터의<br>최신정보</strong>를 알려드려요
+        </h2>    
+      </div>
+      <ul class="s8_list">
+        <li>
+          <a href="#">
+            <h3 class="card_tit">개인정보 처리방침 변경 안내(26.08.14. 시행)</h3>
+            <p class="date">2026-08-14</p>
+            <p class="more">more+</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <h3 class="card_tit">[안내] 금융인증서 사칭 피싱 메일 주의 안내</h3>
+            <p class="date">2026-07-28</p>
+            <p class="more">more+</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <h3 class="card_tit">개인정보 처리방침 변경 안내(26.07.30. 시행)</h3>
+            <p class="date">2026-07-24</p>
+            <p class="more">more+</p>
+          </a>
+        </li>
+      </ul>
+    </div> 
+  </section> 
+
+  <!-- footer -->
+  <footer>
+    <div class="foot1">
+      <div class="rel">
+        <div class="left">
+          <article class="family_wrap">
+            <div class="family_option">
+              <ul class="option_list">
+                <li><a href="#">계좌이체PG</a></li>
+                <li><a href="#">금융IC</a></li>
+                <li><a href="#">전자수입인지</a></li>
+                <li><a href="#">금융IC</a></li>
+                <li><a href="#">빌링원플러스</a></li>
+                <li><a href="#">ExK(국가간 ATM 송금)</a></li>
+                <li><a href="#">계좌이체PG</a></li><li><a href="#">금융IC</a></li>
+                <li><a href="#">빌링원플러스</a></li>
+                <li><a href="#">ExK(국가간 ATM 송금)</a></li>
+                <li><a href="#">계좌이체PG</a></li>
+                <li><a href="#">계좌이체PG</a></li>
+                <li><a href="#">트러스빌(전자세금계산서)</a></li>
+                <li><a href="#">CMS</a></li>
+              </ul>
+            </div>
+            <a href="#" class="family_btn">
+              <span>패밀리 사이트</span>
+            </a>
+          </article>
+          <article class="company_wrap">
+            <div class="logo">
+              <img src="img/footer_logo.png" alt="footer_logo">
+            </div>
+            <p class="address">
+              경기도 성남시 분당구 정자일로<br> 213번길 9 (정자동)ㅣ13556
+            </p>
+            <p class="tel">대표전화 : 1577-5500</p>
+            <a href="#" class="service_btn">원격지원서비스</a>
+            <figure class="mark">
+              <img src="img/footer_trust_e_sign.png" alt="">
+              <img src="img/footer_mark_webwatch.png" alt="">
+            </figure>
+          </article>
+        </div>
+        <div class="right">
+          <ul class="site_info site_info_pc">
+            <li><a href="#">YESKEY 소개</a></li>
+            <li><a href="#">주요연혁</a></li>
+            <li><a href="#">BI소개</a></li>
+            <li><a href="#">관련 사이트</a></li>
+            <li><a href="#">오시는 길</a></li>
+          </ul>
+          <div class="sitemenu_box">
+            <ul class="depth1">
+              <li>
+                <span>인증서</span>
+                <ul class="depth2">
+                  <li><a href="#">금융인증서</a></li>
+                  <li><a href="#">공동인증서</a></li>
+                  <li><a href="#">모비싸인</a></li>
+                </ul>
+              </li>
+              <li>
+                <span>바이오인증</span>
+                <ul class="depth2">
+                  <li>
+                    <a href="#">바이오인증</a>
+                    <ul class="depth3">
+                      <li><a href="#">오프라인 바이오인증</a></li>
+                      <li><a href="#">모바일 바이오인증</a></li>
+                      <li><a href="#">간편 바이오인증</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">바이오 전자서명</a></li>
+                </ul>
+              </li>
+              <li>
+                <span>OTP</span>
+                <ul class="depth2">
+                  <li><a href="#">디지털OTP</a></li>
+                  <li><a href="#">마이인포(금융분산ID)</a></li>
+                  <li><a href="#">마이인포</a></li>
+                </ul>
+              </li>
+              <li>
+                <span>마이인포(금융분산ID)</span>
+                <ul class="depth2">
+                  <li><a href="#">마이인포</a></li>
+                </ul>
+              </li>
+              <li>
+                <span>My 인증(발급·관리)</span>
+                <ul class="depth2">
+                  <li><a href="#">금융인증서</a></li>
+                  <li><a href="#">공동인증서</a></li>
+                  <li><a href="#">본인확인서비스</a></li>
+                  <li><a href="#">모비싸인</a></li>
+                  <li><a href="#">보안업무용인증서</a></li>
+                </ul>
+              </li>
+              <li class="col2">
+                <span>고객지원</span>
+                <div>
+                  <ul class="depth2 col2_ul">
+                    <li><a href="#">고객지원</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">자료실</a></li>
+                    <li><a href="#">체험하기</a></li>
+                    <li><a href="#">테스트</a></li>
+                  </ul>
+                  <ul class="depth2 col2_ul">
+                    <li><a href="#">고객문의</a></li>
+                    <li><a href="#">고객제한</a></li>
+                    <li><a href="#">홍보 및 미디어</a></li>
+                    <li><a href="#">이벤트</a></li>                 
+                    <li><a href="#">설문조사</a></li>
+                  </ul>
+                </div>                
+              </li>            
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="foot2">foot2</div>
+    <div class="mob_only">
+      <h4>
+        <img src="img/header_logo_white.svg" alt="">
+      </h4>
+      <ul class="site_info">
+        <li><a href="#">YESKEY 소개</a></li>
+        <li><a href="#">주요연혁</a></li>
+        <li><a href="#">BI소개</a></li>
+        <li><a href="#">관련 사이트</a></li>
+        <li><a href="#">오시는 길</a></li>
+      </ul>
+      <div class="copy">Copyright 2021. KFTC All rights reserved.</div>
+    </div>
+  </footer>
+
+</body>
+</html>

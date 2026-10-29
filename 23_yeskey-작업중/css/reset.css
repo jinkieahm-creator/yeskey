@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;  /* 추가 */
+}
+html{
+	font-size:62.5%; /* 10px로 기본 설정 */
+}
+ol, ul {
+	list-style: none;
+}
+
+/* 추가 */
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+body { 
+	font-family: "nanumsquare", sans-serif; 
+	color: #303030; 
+	word-break: keep-all;
+	overflow-x: hidden;
+}
+img {
+	max-width: 100%;
+}
